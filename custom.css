@@ -1,11 +1,11 @@
 .main-menu li a {
-    background-image: url('chrome-extension://__MSG_@@extension_id__/images/4.png') !important;
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/네비메뉴.png') !important;
 }
 
 .menu-area a {
-  background-image: url('chrome-extension://__MSG_@@extension_id__/images/3.png') !important;
+  background-image: url('chrome-extension://__MSG_@@extension_id__/images/사이드메뉴.png') !important;
 }
 
 .mypage-btn a {
-    background-image: url('chrome-extension://__MSG_@@extension_id__/images/1.png') !important;
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/메뉴.png') !important;
 	}
