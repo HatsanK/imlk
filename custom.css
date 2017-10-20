@@ -8,4 +8,12 @@
 
 .mypage-btn a {
     background-image: url('chrome-extension://__MSG_@@extension_id__/images/메뉴.png') !important;
-	}
+}
+
+.event-main-btn a {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/이벤메뉴.png') !important;
+}
+
+.livebattle-appeal-btn {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/어필.png') !important;
+}
