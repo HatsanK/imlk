@@ -1,19 +1,19 @@
 .main-menu li a {
-    background-image: url('https://raw.githubusercontent.com/HatsanK/imlk/master/images/네비메뉴.png') !important;
+    background-image: url('https://raw.githubusercontent.com/HatsanK/imlk/master/images/menu-navi.png') !important;
 }
 
 .menu-area a {
-  background-image: url('https://raw.githubusercontent.com/HatsanK/imlk/master/images/사이드메뉴.png') !important;
+  background-image: url('https://raw.githubusercontent.com/HatsanK/imlk/master/images/menu-side.png') !important;
 }
 
 .mypage-btn a {
-    background-image: url('https://raw.githubusercontent.com/HatsanK/imlk/master/images/메뉴.png') !important;
+    background-image: url('https://raw.githubusercontent.com/HatsanK/imlk/master/images/menu.png') !important;
 }
 
 .event-main-btn a {
-    background-image: url('https://raw.githubusercontent.com/HatsanK/imlk/master/images/이벤메뉴.png') !important;
+    background-image: url('https://raw.githubusercontent.com/HatsanK/imlk/master/images/menu-event.png') !important;
 }
 
 .livebattle-appeal-btn {
-    background-image: url('https://raw.githubusercontent.com/HatsanK/imlk/master/images/어필.png') !important;
+    background-image: url('https://raw.githubusercontent.com/HatsanK/imlk/master/images/appeal.png') !important;
 }
