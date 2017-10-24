@@ -3,7 +3,7 @@
 }
 
 .menu-area a {
-  background-image: url('https://raw.githubusercontent.com/HatsanK/imlk/master/images/menu-side.png') !important;
+    background-image: url('https://raw.githubusercontent.com/HatsanK/imlk/master/images/menu-side.png') !important;
 }
 
 .mypage-btn a {
@@ -16,4 +16,8 @@
 
 .livebattle-appeal-btn {
     background-image: url('https://raw.githubusercontent.com/HatsanK/imlk/master/images/appeal.png') !important;
+}
+
+.menu-caption::before {
+    background-image: url('https://raw.githubusercontent.com/HatsanK/imlk/master/images/menu-caption.png') !important;
 }

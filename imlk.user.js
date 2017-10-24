@@ -1,7 +1,7 @@
 // ==UserScript==
 // @id            imlk
 // @name          GREEM@S KRMenu
-// @version       0.4-userjs
+// @version       0.4.1-userjs
 // @author        l4disk,HatsanK
 // @description   그리마스 메뉴 번역
 // @include       http://imas.gree-apps.net/*
@@ -25,6 +25,7 @@ $(document).ready(function(){
     $("[src='http://cdn.bn765.com/b22/20b0715cbf2661726bfd646031239b113b7634b54a6558bdc81366ebb28045d8?c728a3ee2561b78a7e21e7b0e3b08a4a']").attr("src", giturl+"/images/repri.png");
     $("[src='http://cdn.bn765.com/aa1/1e4492b2f9669b9684258877f3056bbded1b972ab14e52829270d2895a3b9f37ad4bb12160d43be8b2a06aa05902340dfe1eb1945981ef80a439a2af3ef2fad5']").attr("src", giturl+"/images/live-ticket.png");
     $("[src='http://cdn.bn765.com/850/1e4492b2f9669b9684258877f3056bbded1b972ab14e52829270d2895a3b9f376378b97e30f2a7fd52e60ce8364b2d333f45644bbedc7260e0eac5e085df1601']").attr("src", giturl+"/images/gasha-eventicket.png");
+    $("[src='http://cdn.bn765.com/a2c/e4f71985efb653fb760fd54e204afe2513e36a37352693c1bfd329c22f494638?4a6ac627a31c9de73272056afb7dd3fc']").attr("src", giturl+"/images/pagetop.jpg");
 
     /*$(document).ajaxComplete(function(){
         $("[src='http://cdn.bn765.com/5c2/20b0715cbf2661726bfd646031239b11ea7c7447fba1f1234889047a1f969033?9d0206b8a246389dfdc2748b4992b12b']").attr("src", giturl+"/images/awake.png");
@@ -40,7 +41,7 @@ $(document).ready(function(){
 
     // 아이돌 이름 번역
     // -- Vo 시작
-    
+
     replaceTextOnPage('天海春香', '아마미 하루카');
     replaceTextOnPage('天海', '아마미');
     replaceTextOnPage('春香', '하루카');
