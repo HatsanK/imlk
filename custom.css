@@ -21,3 +21,27 @@
 .menu-caption::before {
     background-image: url('https://raw.githubusercontent.com/HatsanK/imlk/master/images/menu-caption.png') !important;
 }
+
+.live-btn.time-boost-btn {
+	background-image: url('https://raw.githubusercontent.com/HatsanK/imlk/master/images/timeboost.png') !important;
+}
+
+.live-btn {
+	background-image: url('https://raw.githubusercontent.com/HatsanK/imlk/master/images/live-btn.png') !important;
+}
+
+.theater-setting-btn[data-type="library"] {
+	background-image: url('https://raw.githubusercontent.com/HatsanK/imlk/master/images/songselect.png') !important;
+}
+
+.theater-setting-btn[data-type="edit"] {
+	background-image: url('https://raw.githubusercontent.com/HatsanK/imlk/master/images/theaterset.png') !important;
+}
+
+.theater-move-promotion {
+	background-image: url('https://raw.githubusercontent.com/HatsanK/imlk/master/images/mic.png') !important;
+}
+
+.multi-column-menu-area a {
+    background-image: url('https://raw.githubusercontent.com/HatsanK/imlk/master/images/reload.png') !important;
+}
