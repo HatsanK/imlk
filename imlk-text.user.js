@@ -1,7 +1,7 @@
 // ==UserScript==
 // @id            imlk-text
 // @name          GREEM@S KRText
-// @version       0.1
+// @version       0.1.1
 // @author        HatsanK
 // @description   일부 텍스트(아이돌 이름 등의 오역 가능성이 있는 것을 우선)를 번역합니다. \n 일부 번역 오류가 발생가능합니다.
 // @include       http://imas.gree-apps.net/*
@@ -28,11 +28,11 @@ $(document).ready(function(){
     replaceTextOnPage('如月', '키사라기');
     replaceTextOnPage('千早', '치하야');
 
-    replaceTextOnPage('四条 貴音', '시죠 타카네');
+    replaceTextOnPage('四条貴音', '시죠 타카네');
     replaceTextOnPage('四条', '시죠');
     replaceTextOnPage('貴音', '타카네');
 
-    replaceTextOnPage('水瀬 伊織', '미나세 이오리');
+    replaceTextOnPage('水瀬伊織', '미나세 이오리');
     replaceTextOnPage('水瀬', '미나세');
     replaceTextOnPage('伊織', '이오리');
 
@@ -75,7 +75,7 @@ $(document).ready(function(){
     replaceTextOnPage('最上', '모가미');
     replaceTextOnPage('静香', '시즈카');
 
-    replaceTextOnPage('望月 杏奈', '모치즈키 안나');
+    replaceTextOnPage('望月杏奈', '모치즈키 안나');
     replaceTextOnPage('望月', '모치즈키');
     replaceTextOnPage('杏奈', '안나');
 
@@ -171,8 +171,8 @@ $(document).ready(function(){
     replaceTextOnPage('雪歩', '유키호');
     
     replaceTextOnPage('星井美希', '호시이 미키');
-    replaceTextOnPage('美希', '호시이');
-    replaceTextOnPage('星井', '미키');
+    replaceTextOnPage('星井', '호시이');
+    replaceTextOnPage('美希', '미키');
     
     replaceTextOnPage('双海亜美', '후타미 아미'); // 후타아마미 용 절약
     replaceTextOnPage('双海真美', '후타미 마미');
