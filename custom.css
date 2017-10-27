@@ -16,4 +16,33 @@
 
 .livebattle-appeal-btn {
     background-image: url('chrome-extension://__MSG_@@extension_id__/images/어필.png') !important;
+
+}
+
+.menu-caption::before {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/메뉴설명.png') !important;
+}
+
+.live-btn.time-boost-btn {
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/시간단축.png') !important;
+}
+
+.live-btn {
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/영업중.png') !important;
+}
+
+.theater-setting-btn[data-type="library"] {
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/악곡선택.png') !important;
+}
+
+.theater-setting-btn[data-type="edit"] {
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/극장설정.png') !important;
+}
+
+.theater-move-promotion {
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/마이크.png') !important;
+}
+
+.multi-column-menu-area a {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/새로고침.png') !important;
 }
